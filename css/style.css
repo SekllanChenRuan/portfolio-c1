@@ -8,25 +8,10 @@ a:hover {
 }
 
 body {
-  background: url("https://images.unsplash.com/photo-1528731708534-816fe59f90cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=100://source.unsplash.com/twukN12EN7c/1920x1080")
-    no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
   overflow-x: hidden;
   padding-top: 50px;
   padding-bottom: 250px;
-}
-
-.bg-img {
-  height: 100vh;
-  width: 100vw;
-  object-fit: cover;
-  position: absolute;
-  z-index: -1;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: aqua;
 }
 
 #image1 {
@@ -86,4 +71,31 @@ body {
 #footer {
   position: absolute;
   margin-top: 60px !important;
+}
+
+.modetoggle {
+  font-size: 28px;
+  border-radius: 100px;
+  background-color: #111111;
+  padding: 15px;
+  color: #fcfcfc;
+  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+
+  position: fixed;
+  top: 10%;
+  right: 4%;
+
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.fa-moon-o:before {
+  padding: 0 2px;
+}
+
+.fa-sun-o {
+  background-color: #212121;
+  color: #ccc;
 }
