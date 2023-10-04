@@ -1,5 +1,3 @@
-//test
-
 a:link {
   text-decoration: none;
 }
@@ -100,4 +98,44 @@ body {
 .fa-sun-o {
   background-color: #212121;
   color: #ccc;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 65vh;
+}
+
+.item:not(:first-child) {
+  opacity: 0;
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.item__content {
+  background-color: steelblue;
+  color: #f3f3f3;
+  text-align: center;
+  padding: 7rem;
+  border-radius: 7px;
+}
+
+.item > p {
+  text-align: center;
+}
+
+.left {
+  transform-origin: center;
+  transform: translateX(-50%);
+}
+
+.right {
+  transform-origin: center;
+  transform: translateX(50%);
+}
+
+.slide-in {
+  opacity: 1 !important;
+  transform: translateX(0);
 }
