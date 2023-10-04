@@ -1,3 +1,5 @@
+// test
+
 const body = document.querySelector("body");
 const modeToggle = document.querySelector(".modetoggle");
 
