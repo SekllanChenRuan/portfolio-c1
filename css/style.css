@@ -4,7 +4,7 @@ a:link {
 
 a:hover {
   transition: all 0.5s ease;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 body {
@@ -77,8 +77,6 @@ body {
   width: 100%;
 } */
 
-
-
 .modetoggle {
   font-size: 28px;
   border-radius: 100px;
@@ -144,4 +142,8 @@ body {
 .slide-in {
   opacity: 1 !important;
   transform: translateX(0);
+}
+
+.card {
+  width: 800px;
 }
